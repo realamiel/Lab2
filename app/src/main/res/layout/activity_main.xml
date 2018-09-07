@@ -29,7 +29,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="271dp"
-            app:srcCompat="@android:color/holo_blue_bright"/>
+            app:srcCompat="@drawable/Capture" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,9 +41,9 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="28dp"
+            android:text="San Pablo City"
             android:textAlignment="center"
-            android:text="Title" />
+            android:textSize="28dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:paddingLeft="30dp"
-            android:text="Location: " />
+            android:text="Location:  Laguna Province" />
 
         <TextView
             android:id="@+id/textView4"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:paddingLeft="30dp"
-            android:text="Distance from UST:" />
+            android:text="Distance from UST: 87.1 km" />
 
 
     </LinearLayout>
@@ -81,8 +81,8 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_marginLeft="161dp"
+            android:longClickable="true"
             android:text="Next" />
     </LinearLayout>
 
