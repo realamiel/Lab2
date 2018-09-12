@@ -29,7 +29,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="271dp"
-            app:srcCompat="@drawable/Capture" />
+            app:srcCompat="@drawable/spc" />
     </LinearLayout>
 
     <LinearLayout
